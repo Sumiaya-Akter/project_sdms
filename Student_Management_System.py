@@ -304,6 +304,7 @@ def exitstudent():
 def ConnectDatabase():
     def submitdb():
         global con,mycursor
+        #hello
         host = hostval.get()
         user = userval.get()
         password = passwordval.get()
